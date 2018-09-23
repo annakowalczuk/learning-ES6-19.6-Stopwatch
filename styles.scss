@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #607d8b;
+  color: #BBBBBB;
+}
+
+a {
+  text-decoration: none;
+  color: #BBBBBB;
+
+  &:hover {
+    color: lighten(#BBBBBB, 20%);
+  }
+}
+
+.controls,
+.stopwatch {
+  text-align: center;
+}
+
+.controls{
+  padding-top: 30px;
+}
